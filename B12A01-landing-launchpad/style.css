@@ -66,6 +66,8 @@ button{
     align-items: center;
     justify-content: space-between;
     margin: 116px 159px 116px 141px;
+    width: 1140px;
+    height: 328px;
 }
 
 .title{
@@ -89,6 +91,19 @@ h5{
     border-radius: 48px;
     width: 403px;
     height: 328px;
+}
+
+.info{
+    display: flex;
+}
+
+.users{
+    margin: 116px 159px 137px 141px;
+    padding: 50px 142px;
+    background-color: #dfe5fa;
+    border-radius: 20px;
+
+    
 }
 
 
