@@ -95,6 +95,8 @@ h5{
 
 .info{
     display: flex;
+    /* justify-content: space-around; */
+    
 }
 
 .users{
@@ -106,6 +108,89 @@ h5{
     
 }
 
+.join{
+    font-family: "Raleway", sans-serif;
+    font-size: 38px;
+    text-align: center;
+}
 
+.details h2{
+    font-weight: 700;
+    font-size: 80px;
+    color: #4E47FF;
+}
+
+.details h6{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.details{
+    text-align: center;
+    line-height: 10px;
+    margin-right: 195px;
+}
+
+.view{
+    display: flex;
+    align-items: center;
+}
+
+.comment{
+    width: 1140px;
+    height: 342px;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.comment h3{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    text-align: center;
+
+}
+
+.avatar{
+    width:40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.view h6{
+    line-height: 0px;
+    margin-left: 10px;
+}
+
+.card{
+    width: 366.67px;
+    height: 200px;
+    margin: 10px;
+    padding: 24px;
+    justify-content: space-around;
+    line-height: 17px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cards{
+    display: flex;
+}
+
+.com h4{
+    color: #1E1E1E;
+}
+
+.com h6{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.name{
+    color: #757575;
+}
+.Date{
+    color: #B3B3B3;
+}
 
 
