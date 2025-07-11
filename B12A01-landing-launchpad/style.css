@@ -9,6 +9,7 @@ body{
     padding: 0px;
     width: 1440px;
     margin: 0px auto;
+    background-color: rgb(235, 235, 245);
 }
 
 h1{
@@ -26,8 +27,7 @@ header{
     font-size: 34px;
     height: 698px;
     background: url(Assets/Hero-bg.png);
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;    
 }
 
 nav{
@@ -167,8 +167,9 @@ h5{
     height: 200px;
     margin: 10px;
     padding: 24px;
+    padding-bottom: 50px;
+    line-height: 18px;
     justify-content: space-around;
-    line-height: 17px;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -193,4 +194,54 @@ h5{
     color: #B3B3B3;
 }
 
+.ready{
+    text-align: center;
+    display:inline-block;
+    width: 962px;
+    height: 600px;
+    margin: 137px 149px 163.23px 160px;
+    padding: 80px;
+    line-height: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+.big img{
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.ready h2{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.personal{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px 118px;
+}
+
+.touch h1{
+    font-weight: 700;
+    font-size: 97px;
+    width: 528px;
+    height: 232px;
+}
+
+input{
+    width: 497px;
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 19px;
+}
+
+textarea{
+    width: 497px;
+    height: 135px;
+    border-radius: 10px;
+    border: none;
+}
 
